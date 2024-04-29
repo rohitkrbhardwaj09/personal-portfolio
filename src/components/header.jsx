@@ -47,8 +47,8 @@ const header = () => {
 
   const handleDownload = () => {
     const downloadLink = document.createElement("a");
-    downloadLink.href = "src/assets/RohitKumar_JavaScriptGL.pdf"; // Change to the path of your resume file
-    downloadLink.download = "RohitKumar_JavaScriptGL.pdf"; // Change the name if needed
+    downloadLink.href = "src/assets/RohitKumar.pdf"; // Change to the path of your resume file
+    downloadLink.download = "RohitKumar.pdf"; // Change the name if needed
     document.body.appendChild(downloadLink);
     downloadLink.click();
     document.body.removeChild(downloadLink);
@@ -56,7 +56,7 @@ const header = () => {
 
 
   //toggle code here
-  const [theme, setTheme] = useState("light-theme")
+  const [theme, setTheme] = useState("dark-theme")
   const sun = document.getElementById("sun");
   const moon = document.getElementById("moon");
   const toggleTheme = () => {
@@ -77,7 +77,7 @@ const header = () => {
 
 
   return (
-    <div className="navbar shadow w-full fixed top-0 left-0">
+    <div className="navbar shadow w-full fixed top-0 left-0 overflow-hidden">
       <div className="md:flex items-center justify-between py-4 md:py-2 bg-[var(--base-color)] text-[var(--secondary-color)] md:px-10 px-7">
         <div className="md:text-2xl  text-md text-[var(--primary-color)] font-bold">
           <a

@@ -17,7 +17,7 @@ const aboutUs = () => {
       <h2 className="pt-6 w-full text-center text-6xl uppercase font-semibold text-[var(--secondary-color)]" data-aos="fade-down">
           About me
         </h2>
-        <p className="text-center my-5 text-[var(--grayish-color)]">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology.</p>
+        <p className="my-5 text-[var(--grayish-color)]">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology.</p>
 
         <div className="flex justify-center flex-col mx-8 md:flex-row-reverse">
           <div className="md:w-4/12 flex justify-center items-center" data-aos="fade-left">
